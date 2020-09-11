@@ -16,4 +16,8 @@ describe "#longest_repetition" do
   it "takes ('ba') and returns ['b', 1] " do
     expect(longest_repetition("ba")).to eq(['b',1])
   end
+  # ("aabb")
+  it "takes ('aabb') and returns ['a', 2] " do
+    expect(longest_repetition("aabb")).to eq(['a',2])
+  end
 end
