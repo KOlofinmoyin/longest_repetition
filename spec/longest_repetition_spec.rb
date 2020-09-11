@@ -6,8 +6,14 @@ describe "#longest_repetition" do
   end
 
   it "takes ('aa') and returns ['aa', 2] " do
-    expect(longest_repetition("aa")).to eq(['aa',2])
+    expect(longest_repetition("aa")).to eq(['a',2])
   end
 
+  it "takes ('b') and returns ['b', 1] " do
+    expect(longest_repetition("b")).to eq(['b',1])
+  end
 
+  it "takes ('ba') and returns ['b', 1] " do
+    expect(longest_repetition("ba")).to eq(['b',1])
+  end
 end

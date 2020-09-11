@@ -25,8 +25,9 @@ Test.assert_equals(longest_repetition("aaaabb"), ['a', 4])
 INPUT                               |                  OUTPUT
 ==============================================================
 (done)("")                                 |         ['', 0]
-("aa")                               |         ['aa', 2]
-("ba")                               |         ['b', 1]
+(done)("aa")                               |         ['a', 2]
+(done)("b")                               |         ['b', 1]
+(done)("ba")                               |         ['b', 1]
 ("aabb")                             |         ['a', 2]
 ("aaabbcccddd")                      |         ['a', 3]
 ("bbbaaabaaaa")                      |         ['a', 4]
