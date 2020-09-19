@@ -24,4 +24,8 @@ describe "#longest_repetition" do
   it "takes ('aaabbcccddd') and returns ['a', 3] " do
     expect(longest_repetition("aaabbcccddd")).to eq(['a',3])
   end
+
+  it "takes ('bbbaaabaaaa') and returns ['a', 4] " do
+    expect(longest_repetition("bbbaaabaaaa")).to eq(['a',4])
+  end
 end
